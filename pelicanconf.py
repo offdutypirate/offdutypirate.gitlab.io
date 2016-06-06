@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'thedude'
-SITENAME = u'Example Pelican website using GitLab Pages!'
+AUTHOR = u'Jon Moore'
+SITENAME = u'Captain\'s Log'
 SITEURL = ''
 
 PATH = 'content'
 OUTPUT_PATH = 'public'
 
-TIMEZONE = 'Europe/Athens'
+TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = u'en'
 
@@ -21,16 +21,31 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = ()
 
+MENUITEMS = (('Archives', 'archive/index.html'),)
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://www.twitter.com/offdutypirate'),
+          )
 
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+MAIN_MENU = True
+THEME = 'pelican-mg'
+
+CC_LICENSE = { 'name': 'Creative Commons Attribution-ShareAlike', 'version':'4.0', 'slug': 'by-sa' }
+COPYRIGHT_YEAR = 2016
+
+ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
+ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
+
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = PAGE_URL + 'index.html'
+
+ARCHIVES_SAVE_AS = 'archive.html'
+YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
+
+PROFILE_IMG_URL = 'http://www.gravatar.com/avatar/1017f383d5407116b6b468d01aee41ed'
