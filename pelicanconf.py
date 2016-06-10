@@ -33,7 +33,7 @@ DEFAULT_PAGINATION = 5
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 MAIN_MENU = True
-THEME = 'pelican-mg'
+THEME = 'theme'
 
 CC_LICENSE = { 'name': 'Creative Commons Attribution-ShareAlike', 'version':'4.0', 'slug': 'by-sa' }
 COPYRIGHT_YEAR = 2016
