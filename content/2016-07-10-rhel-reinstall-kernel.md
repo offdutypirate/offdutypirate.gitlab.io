@@ -16,4 +16,4 @@ However, this doesn't always work.  If yum feels the kernel is already installed
 
 And then, reinstall
 
-   $ yum reinstall kernel-<version>
+    $ yum reinstall kernel-<version>
