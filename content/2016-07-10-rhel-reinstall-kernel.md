@@ -1,4 +1,4 @@
-Title: RPM notes
+Title: Reinstall the Kernel with yum
 Date: 2016-07-20 07:12
 Modified: 2016-07-20 07:12
 Category: short tips
