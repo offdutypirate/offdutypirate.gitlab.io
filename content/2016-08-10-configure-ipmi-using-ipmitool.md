@@ -17,7 +17,6 @@ On RHEL7Server the `OpenIPMI` and `ipmitool` are necessary to configure and use 
     $ sudo ipmitool lan set 1 netmask 255.255.255.0
     $ sudo ipmitool lan set 1 defgw ipsrc 203.0.113.3
     
-    
 ## Other Topics
 * Configuration authenication
 * View and clear SEL

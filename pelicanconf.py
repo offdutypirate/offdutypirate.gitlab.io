@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jon Moore'
 SITENAME = u'Captain\'s Log'
-SITEURL = ''
+SITEURL = '/'
 
 PATH = 'content'
 OUTPUT_PATH = 'public'
@@ -44,7 +44,7 @@ ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = PAGE_URL + 'index.html'
 
-ARCHIVES_SAVE_AS = 'archive.html'
+ARCHIVES_SAVE_AS = 'archive/index.html'
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
 
