@@ -1,9 +1,11 @@
-Title: RPM notes
-Date: 2015-11-22 09:20
-Modified: 2015-11-26 08:30
-Category: short tips
-Slug: rpm-notes
-Authors: Jon Moore
+RPM Notes
+#########
+
+:date: 2015-11-22 09:20
+:modified: 2015-11-26 08:30
+:category: short tips
+:slug: rpm-notes
+:authors: Jon Moore
 
 Here is a collection of my notes on using RPM.  Most of these are well documented in man pages and other sources around the web.  I've collected the ones I've used most here as a reference for myself and others.  
 
@@ -13,7 +15,8 @@ Query package information
 Show package information
 ------------------------
 
-	$
+.. code-block:: console
+    $
 	rpm -qi yum-cron
 	Name        : yum-cron                     Relocations: (not relocatable)
 	Version     : 3.2.29                            Vendor: CentOS
@@ -34,6 +37,7 @@ Show package file list
 
 This shows all files included in a package.
 
+.. code-block:: console
 	$ rpm -ql yum-cron
 	/etc/cron.daily/0yum.cron
 	/etc/rc.d/init.d/yum-cron
@@ -49,6 +53,7 @@ Show a packages configuration files
 
 Similar to -q but only lists configuration files
 
+.. code-block:: console
 	$  rpm -qc yum-cron
 	/etc/sysconfig/yum-cron
 	/etc/yum/yum-daily.yum
@@ -59,6 +64,7 @@ Show a packages documentation
 
 Similar to previous examples, but only shows documentation.
 
+.. code-block:: console
 	$ rpm -qd yum-cron
 	/usr/share/doc/yum-cron-3.2.29/COPYING
 	/usr/share/man/man8/yum-cron.8.gz
@@ -66,6 +72,7 @@ Similar to previous examples, but only shows documentation.
 Show a packages changelog
 --------------------------
 
+.. code-block:: console
 	$ rpm -q --changelog yum-cron
 	* Thu Dec 03 2015 Johnny Hughes <johnny@centos.org>  - 3.4.3-132.el7.centos.0.1
 	- Roll in Manual Branding Change to constants.py
