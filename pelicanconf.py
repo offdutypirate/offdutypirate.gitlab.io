@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jon Moore'
 SITENAME = u'Captain\'s Log'
-SITEURL = '/'
+SITEURL = ''
 
 PATH = 'content'
 OUTPUT_PATH = 'public'
@@ -49,3 +49,5 @@ YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
 
 PROFILE_IMG_URL = 'http://www.gravatar.com/avatar/1017f383d5407116b6b468d01aee41ed'
+
+STATIC_PATHS = ['images', '.well-known']

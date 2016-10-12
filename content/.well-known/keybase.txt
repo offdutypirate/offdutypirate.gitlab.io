@@ -1,0 +1,55 @@
+
+==================================================================
+https://keybase.io/offdutypirate
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://offdutypirate.gitlab.io
+  * I am offdutypirate (https://keybase.io/offdutypirate) on keybase.
+  * I have a public key ASAkbRSScJFv8AlItyC0x31Y-TVTUzxr6ccgG6__ESqnHwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120246d149270916ff00948b720b4c77d58f93553533c6be9c7201bafff112aa71f0a",
+            "host": "keybase.io",
+            "kid": "0120246d149270916ff00948b720b4c77d58f93553533c6be9c7201bafff112aa71f0a",
+            "uid": "8e85fc184d7554f5870d99c47d5ec019",
+            "username": "offdutypirate"
+        },
+        "service": {
+            "hostname": "offdutypirate.gitlab.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1476284785,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1476284767,
+        "hash": "25c722f9c0320cfefc43eec725207ce205d6876fd06b339628bfac58840319b83318b3dd5ce92a54168de13fb4d5690f72ea58d803d6c01c6d4eb1167ab4c23f",
+        "seqno": 673999
+    },
+    "prev": "09e3bf1e76923a8be9d45cdfe4fab0af0520f92f3804d694809b4e920c2e3d7f",
+    "seqno": 35,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJG0UknCRb/AJSLcgtMd9WPk1U1M8a+nHIBuv/xEqpx8Kp3BheWxvYWTFAwV7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMjQ2ZDE0OTI3MDkxNmZmMDA5NDhiNzIwYjRjNzdkNThmOTM1NTM1MzNjNmJlOWM3MjAxYmFmZmYxMTJhYTcxZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjQ2ZDE0OTI3MDkxNmZmMDA5NDhiNzIwYjRjNzdkNThmOTM1NTM1MzNjNmJlOWM3MjAxYmFmZmYxMTJhYTcxZjBhIiwidWlkIjoiOGU4NWZjMTg0ZDc1NTRmNTg3MGQ5OWM0N2Q1ZWMwMTkiLCJ1c2VybmFtZSI6Im9mZmR1dHlwaXJhdGUifSwic2VydmljZSI6eyJob3N0bmFtZSI6Im9mZmR1dHlwaXJhdGUuZ2l0bGFiLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTcifSwiY3RpbWUiOjE0NzYyODQ3ODUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3NjI4NDc2NywiaGFzaCI6IjI1YzcyMmY5YzAzMjBjZmVmYzQzZWVjNzI1MjA3Y2UyMDVkNjg3NmZkMDZiMzM5NjI4YmZhYzU4ODQwMzE5YjgzMzE4YjNkZDVjZTkyYTU0MTY4ZGUxM2ZiNGQ1NjkwZjcyZWE1OGQ4MDNkNmMwMWM2ZDRlYjExNjdhYjRjMjNmIiwic2Vxbm8iOjY3Mzk5OX0sInByZXYiOiIwOWUzYmYxZTc2OTIzYThiZTlkNDVjZGZlNGZhYjBhZjA1MjBmOTJmMzgwNGQ2OTQ4MDliNGU5MjBjMmUzZDdmIiwic2Vxbm8iOjM1LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQCCgKlTgqnqwChHtggAOAvrJxRrwfUYSxzXRyGDZykCv4Kbm+XtfMxs/Og9J6vOk58YeA0a8CP6G2yr8Vb6rsQOoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDhlzy1kJis0V/DZjD1nh7HFu7NOK9ybuU7wW+eqLFkGqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/offdutypirate
+
+==================================================================
