@@ -1,3 +1,4 @@
 public/
 *.pyc
 .python-version
+theme/config.codekit
