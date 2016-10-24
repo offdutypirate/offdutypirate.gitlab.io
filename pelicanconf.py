@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jon Moore'
 SITENAME = u'Captain\'s Log'
-SITEURL = 'https://captainslog.me/'
+SITEURL = 'https://captainslog.me'
 
 PATH = 'content'
 OUTPUT_PATH = 'public'
@@ -33,7 +33,7 @@ DEFAULT_PAGINATION = 5
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 MAIN_MENU = True
-THEME = 'theme'
+THEME = 'themes/pelican-bootstrap3-custom'
 
 CC_LICENSE = { 'name': 'Creative Commons Attribution-ShareAlike', 'version':'4.0', 'slug': 'by-sa' }
 COPYRIGHT_YEAR = 2016
@@ -51,3 +51,5 @@ MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
 PROFILE_IMG_URL = 'http://www.gravatar.com/avatar/1017f383d5407116b6b468d01aee41ed'
 
 STATIC_PATHS = ['images', '.well-known']
+DISPLAY_RECENT_POSTS_ON_SIDEBAR = 'yes'
+CC_LICENSE = 'CC-BY-NC-SA'
