@@ -1,3 +1,0 @@
-[submodule "themes/pelican-bootstrap3-custom"]
-	path = themes/pelican-bootstrap3-custom
-	url = git@gitlab.com:offdutypirate/pelican-bootstrap3-custom.git
