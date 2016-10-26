@@ -1,0 +1,11 @@
+<div class="sidebar-module sidebar-module-inset">
+    {% if AVATAR %}
+        <p>
+            <img width="100%" class="img-thumbnail" src="{{ AVATAR }}"/>
+        </p>
+    {% endif %}
+    <p>
+        <h4>About {{ AUTHOR }}</h4>
+        <p>{{ ABOUT_ME }}</p>
+    </p>
+</div>
