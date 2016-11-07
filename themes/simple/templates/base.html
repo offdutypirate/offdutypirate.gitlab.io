@@ -29,35 +29,58 @@
         <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
         {% endblock head %}
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="/theme/css/blog.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 
 <body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-        </header><!-- /#banner -->
-        <nav id="menu"><ul>
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-3 blog-sidebar">
+
+        <div class="sidebar-module">
+        <h1 class="site-title">{{ SITENAME }}</h1>
+        </div>
+
+        <div class="sidebar-module">
+        <ul class="list-unstyled">
         {% for title, link in MENUITEMS %}
-            <li><a href="{{ link }}">{{ title }}</a></li>
+            <li ><a href="{{ link }}">{{ title }}</a></li>
         {% endfor %}
-        {% if DISPLAY_PAGES_ON_MENU %}
-          {% for p in pages %}
-            <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-          {% endfor %}
-        {% else %}
-          {% if DISPLAY_CATEGORIES_ON_MENU %}
-            {% for cat, null in categories %}
-              <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+        {% for p in pages %}
+            <li class="{% if p == page %}active{% endif %}"><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+        {% endfor %}
+        </ul>
+        </div><!-- /#menu -->
+
+        <div class="well">
+            <p>Post Categories & Archives</p>
+            <ul class="list-unstyled">
+            {% for category, articles in categories %}
+                <li>
+                    <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>
+                </li>
             {% endfor %}
-          {% endif %}
-        {% endif %}
-        </ul></nav><!-- /#menu -->
+            </ul>
+        </div>
+        </div>
+        
+        <div class="main-content col-sm-9">
         {% block content %}
         {% endblock %}
         <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+        <address id="about" class="vcard body">
+        Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+        which takes great advantage of <a href="http://python.org">Python</a>.
+        </address><!-- /#about -->
         </footer><!-- /#contentinfo -->
+        </div>
+    </div>
+    </div>
 </body>
 </html>

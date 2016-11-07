@@ -2,10 +2,9 @@
 {% block content %}
 <h1>Archives for {{ SITENAME }}</h1>
 
-<dl>
+<ol class="list-unstyled">
 {% for article in dates %}
-    <dt>{{ article.locale_date }}</dt>
-    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+    <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
 {% endfor %}
-</dl>
+</ol>
 {% endblock %}
