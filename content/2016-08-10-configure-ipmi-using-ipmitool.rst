@@ -1,16 +1,25 @@
-Title: Configuring ipmi using ipmitool
-Date: 2016-08-10 07:12
-Modified: 2016-08-10 07:12
-Category: short tips
-Slug: configure-ipmi-using-ipmitool
-Authors: Jon Moore
+Configuring ipmi using ipmitool
+###############################
 
-## Packages and Services
+:date: 2016-08-10 07:12
+:modified: 2016-08-10 07:12
+:category: networking
+:slug: configuring-impi-using-ipmitool
+:authors: Jon Moore
+
+Packages and Services
+=====================
+
 On RHEL7Server the `OpenIPMI` and `ipmitool` are necessary to configure and use IPMI.
+
+.. code-block:: console
 
     $ yum install OpenIMPI ipmitool
     
-## Networking
+Networking
+==========
+
+.. code-block:: console
 
     $ sudo ipmitool lan set 1 ipsrc static
     $ sudo ipmitool lan set 1 ipaddr 203.0.113.45
