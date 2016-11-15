@@ -19,6 +19,8 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+PLUGIN_PATHS=['plugins',]
+PLUGINS=['sitemap',]
 
 # Blogroll
 LINKS = ()
@@ -58,4 +60,20 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 DEFAULT_METADATA = {
     'status': 'draft',
+}
+
+
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
 }
