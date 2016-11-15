@@ -5,6 +5,7 @@ Interface teaming with nmcli
 :modified: 2015-12-28 08:00
 :category: short tips
 :slug: interface-teaming-with-nmcli
+:status: published
 :authors: Jon Moore
 
 Create the team interface

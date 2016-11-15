@@ -5,6 +5,7 @@ RPM Notes
 :modified: 2015-11-26 08:30
 :category: short tips
 :slug: rpm-notes
+:status: published
 :authors: Jon Moore
 
 Here is a collection of my notes on using RPM.  Most of these are well documented in man pages and other sources around the web.  I've collected the ones I've used most here as a reference for myself and others.  

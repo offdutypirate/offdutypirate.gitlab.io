@@ -2,6 +2,8 @@ Title: Have dovecot logins update lastlog
 Date: 2016-07-13 18:20
 Modified: 2016-07-13 18:30
 Category: short tips
+Status: published
+Tags: mail
 Slug: dovecot-update-lastlog
 Authors: Jon Moore
 

@@ -1,8 +1,9 @@
 Title: Reinstall the Kernel with yum
 Date: 2016-07-20 07:12
 Modified: 2016-07-20 07:12
-Category: short tips
+Tags: rhel, yum
 Slug: rhel-reinstall-kernel
+Status: Published
 Authors: Jon Moore
 
 After failing to update the initrd after making changes to the plymouth boot I was unable to boot into the kernel.  The yum reinstall fixed this

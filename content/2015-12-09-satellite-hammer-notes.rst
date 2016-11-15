@@ -5,6 +5,7 @@ Hammer Notes
 :modified: 2015-12-31 08:00
 :category: satellite
 :slug: hammer-notes
+:status: published
 :authors: Jon Moore
 
 Here is a collection of my notes on using hammer cli with Red Hat Satellite.  Most of these things probably work with Katello also, but all of my testing is with Satellite.

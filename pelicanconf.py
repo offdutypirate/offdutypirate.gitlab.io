@@ -23,17 +23,16 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = ()
 
-MENUITEMS = (('Archives', 'archive/index.html'),)
+MENUITEMS = ()
 # Social widget
-SOCIAL = (('twitter', 'https://www.twitter.com/offdutypirate'),
-          )
+SOCIAL = ()
 
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 MAIN_MENU = True
-THEME = 'themes/simple'
+#THEME = 'themes/simple-new'
 
 CC_LICENSE = { 'name': 'Creative Commons Attribution-ShareAlike', 'version':'4.0', 'slug': 'by-sa' }
 COPYRIGHT_YEAR = 2016
@@ -53,3 +52,10 @@ PROFILE_IMG_URL = 'http://www.gravatar.com/avatar/1017f383d5407116b6b468d01aee41
 STATIC_PATHS = ['images', '.well-known']
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = 'yes'
 CC_LICENSE = 'CC-BY-NC-SA'
+
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+
+DEFAULT_METADATA = {
+    'status': 'draft',
+}

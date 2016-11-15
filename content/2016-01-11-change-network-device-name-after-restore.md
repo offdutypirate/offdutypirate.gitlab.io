@@ -3,6 +3,7 @@ Date: 2016-01-11 12:30
 Modified: 2016-01-11 12:30
 Category: short tips
 Slug: change-interface-name-after-restore
+Status: Published
 Authors: Jon Moore
 Summary: Restoring a server using an image based backup product can result in network inteface naming changing.  Here is a short procedure to changes those names back.
 

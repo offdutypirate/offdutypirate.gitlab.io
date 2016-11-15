@@ -5,6 +5,7 @@ Configuring ipmi using ipmitool
 :modified: 2016-08-10 07:12
 :category: networking
 :slug: configuring-impi-using-ipmitool
+:status: published
 :authors: Jon Moore
 
 Packages and Services
@@ -26,7 +27,8 @@ Networking
     $ sudo ipmitool lan set 1 netmask 255.255.255.0
     $ sudo ipmitool lan set 1 defgw ipsrc 203.0.113.3
     
-## Other Topics
+Other Topics
+============
 * Configuration authenication
 * View and clear SEL
 * View hardware status
