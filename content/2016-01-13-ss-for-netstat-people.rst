@@ -10,16 +10,23 @@ ss for netstat people
 Summary: ss is another utility to investigate sockets and is often seen as a replacement for netstat.  This posts attempes to give a brief introduction to using ss in place of netstat
 Published: true
 
-## Show all connections
-    
+Show all connections
+====================
+
+.. code-block:: console
+
     # ss | head -4
     Netid  State      Recv-Q Send-Q Local Address:Port                 Peer Address:Port
     u_str  ESTAB      0      0       * 16885                 * 16886
     u_str  ESTAB      0      0       * 16828                 * 16827
     u_str  ESTAB      0      0      /var/run/dbus/system_bus_socket 12315                 * 12314
 
-## Filter by tcp, udp or sockets
+Filter by tcp, udp or sockets
+=============================
+
 Use `-t`, `-u` or `-x` to filter by tcp, udp or unix sockets
+
+.. code-block:: console
 
     # ss -t | head -4
     State      Recv-Q Send-Q Local Address:Port                 Peer Address:Port
