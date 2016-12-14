@@ -34,7 +34,7 @@ DEFAULT_PAGINATION = 5
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 MAIN_MENU = True
-THEME='themes/notmyidea'
+THEME='themes/pelican-mg'
 
 CC_LICENSE = { 'name': 'Creative Commons Attribution-ShareAlike', 'version':'4.0', 'slug': 'by-sa' }
 COPYRIGHT_YEAR = 2016
@@ -62,8 +62,6 @@ DEFAULT_METADATA = {
     'status': 'draft',
 }
 
-
-
 SITEMAP = {
     'format': 'xml',
     'priorities': {
@@ -77,3 +75,9 @@ SITEMAP = {
         'pages': 'monthly'
     }
 }
+
+# require for mg theme
+TAG_SAVE_AS = ''
+AUTHOR_SAVE_AS = ''
+DIRECT_TEMPLATES = ('index', 'categories', 'archives', 'search', 'tipue_search')
+TIPUE_SEARCH_SAVE_AS = 'tipue_search.json'
