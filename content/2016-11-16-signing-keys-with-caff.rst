@@ -58,7 +58,7 @@ be signed.
     caff --keys-from-gnupg -u <keyid> -R --key-file keys.asc
 
 Now, caff will display each key (userid) and ask to sign.  
-If signed caff when email an encrypted copy of each signed uid
+If signed caff will email an encrypted copy of each signed uid
 individually.
 
 
