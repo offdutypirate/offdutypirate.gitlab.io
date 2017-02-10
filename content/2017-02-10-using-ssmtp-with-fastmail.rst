@@ -1,5 +1,5 @@
 Using ssmtp with FastMail
-#########
+#########################
 
 :date: 2017-02-10 9:30
 :category: short tips, mail
