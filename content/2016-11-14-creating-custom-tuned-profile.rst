@@ -14,8 +14,6 @@ From the `man page`_ "tuned is a dynamic adaptive system tuning daemon that tune
 Profiles and Configuration files
 ================================
 
-A list of installed profiles is available using `tuned-adm`.  
-
 
 
 

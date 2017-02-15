@@ -2,11 +2,10 @@ Using ssmtp with FastMail
 #########################
 
 :date: 2017-02-10 9:30
-:category: short tips
+:category: short tips, mail
 :slug: using-ssmtp-with-fastmail
 :status: published
 :authors: Jon Moore
-:tags: mail
 
 
 ::
