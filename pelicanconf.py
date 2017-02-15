@@ -19,12 +19,13 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-PLUGIN_PATHS=['plugins',]
-PLUGINS=['sitemap',]
+PLUGIN_PATHS = ['plugins',]
+PLUGINS = ['sitemap']
 
 # Blogroll
 LINKS = ()
 
+# Menu Bar
 MENUITEMS = ()
 # Social widget
 SOCIAL = ()
@@ -34,10 +35,10 @@ DEFAULT_PAGINATION = 5
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 MAIN_MENU = True
-THEME='themes/pelican-mg'
+THEME = 'themes/notmyidea'
 
-CC_LICENSE = { 'name': 'Creative Commons Attribution-ShareAlike', 'version':'4.0', 'slug': 'by-sa' }
-COPYRIGHT_YEAR = 2016
+CC_LICENSE = {'name':'Creative Commons Attribution-ShareAlike', 'version':'4.0', 'slug':'by-sa'}
+COPYRIGHT_YEAR = 2017
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
@@ -75,9 +76,3 @@ SITEMAP = {
         'pages': 'monthly'
     }
 }
-
-# require for mg theme
-TAG_SAVE_AS = ''
-AUTHOR_SAVE_AS = ''
-DIRECT_TEMPLATES = ('index', 'categories', 'archives', 'search', 'tipue_search')
-TIPUE_SEARCH_SAVE_AS = 'tipue_search.json'
