@@ -1,6 +1,6 @@
 About this blog
 ###############
-
+:title: About
 :date: 2016-11-15 06:00
 :status: Published
 
