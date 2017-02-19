@@ -26,10 +26,10 @@ PLUGINS = ['sitemap']
 LINKS = ()
 
 # Menu Bar
-MENUITEMS = (('Keybase','https://keybase.io/offdutypirate'),)
+MENUITEMS = (('Keybase', 'https://keybase.io/offdutypirate'), )
 # Social widget
-SOCIAL = (('GitLab','https://gitlab.com/offdutypirate'),
-         ('Twitter','https://twitter.com/offdutypirate'))
+SOCIAL = (('GitLab', 'https://gitlab.com/offdutypirate'),
+         ('Twitter', 'https://twitter.com/offdutypirate'))
 
 DEFAULT_PAGINATION = 5
 
