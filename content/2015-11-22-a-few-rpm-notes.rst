@@ -36,6 +36,7 @@ Show package file list
 ------------------------
 
 This shows all files included in a package.
+
 .. code-block:: console
 
 	$ rpm -ql yum-cron
@@ -52,6 +53,7 @@ Show a packages configuration files
 -----------------------------------
 
 Similar to -q but only lists configuration files
+
 .. code-block:: console
 
 	$  rpm -qc yum-cron
@@ -63,6 +65,7 @@ Show a packages documentation
 -----------------------------
 
 Similar to previous examples, but only shows documentation.
+
 .. code-block:: console
 
 	$ rpm -qd yum-cron
@@ -71,6 +74,7 @@ Similar to previous examples, but only shows documentation.
 
 Show a packages changelog
 --------------------------
+
 .. code-block:: console
 
 	$ rpm -q --changelog yum-cron

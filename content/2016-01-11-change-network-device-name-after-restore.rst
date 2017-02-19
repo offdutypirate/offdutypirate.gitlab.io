@@ -1,15 +1,20 @@
-Title: Change network device name after restore
-Date: 2016-01-11 12:30
-Modified: 2016-01-11 12:30
-Category: short tips
-Slug: change-interface-name-after-restore
-Status: Published
-Authors: Jon Moore
+Change network device name after restore
+========================================
+
+:date: 2016-01-11 12:30
+:modified:  2016-01-11 12:30
+:category: short tips
+:slug: change-interface-name-after-restore
+:status: published
+:authors: Jon Moore
+
 Summary: Restoring a server using an image based backup product can result in network inteface naming changing.  Here is a short procedure to changes those names back.
 
 If the MAC address of a physical or virtual network interface changes then the device name will often change as well. This is common when restoring a server from an image based backup.  After the restore, the configuration for the network interfaces will often persist, but are tied to the old hardware address.  This is a pretty easy situtation to clean up.  This post focuses only on CentOS 6.
 
 If there is only a single network interface the quickest method is to remove the udev rules for network devices and then remove the HWADDR line from the interface configuration file and reboot.
+
+.. code-block:: console
 
     $ rm /etc/udev/rules.d/70-persistent-net.rules
     $ sed -i".bak" '/HWADDR/d' /etc/sysconfig/network-scripts/ifcfg-eth0
