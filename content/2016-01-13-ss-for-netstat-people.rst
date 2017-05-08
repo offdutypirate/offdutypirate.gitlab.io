@@ -33,4 +33,20 @@ Use `-t`, `-u` or `-x` to filter by tcp, udp or unix sockets
     ESTAB      0      0      203.0.113.50:8041                 198.51.100.15:53705
     ESTAB      0      0      127.0.0.1:fs-agent             127.0.0.1:43807
     ESTAB      0      0      203.0.113.50:8041                 192.0.2.234:32784
-    
+
+Display only IPv4 or IPv6
+=========================
+
+Use `-f inet` or `-4` to only show IPv4, or `-f inet6` or `-6` for IPv6.
+
+Filter by Address or Port
+=========================
+
+Filter by address, address and port, or CIDR network
+
+.. code-block:: console
+
+    # ss -nt dst 203.0.113.12
+    # ss -nt dst 203.0.113.12:443
+    # ss -nt dst 203.0.113.0/24
+
